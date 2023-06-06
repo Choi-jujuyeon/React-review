@@ -10,6 +10,7 @@ const Calculator = () => {
       <Flex>
         <Input />
         <Input ml={2} />
+        {result && <Box ml={4}>{result}</Box>}
       </Flex>
     </Box>
   );
