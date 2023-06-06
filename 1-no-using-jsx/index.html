@@ -19,5 +19,15 @@
             crossorigin
             src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
         ></script>
+
+        <!-- 예제 1 -->
+        <script>
+            // REACTDOM에 들어가 있는 함수이다.
+            ReactDOM.render(
+                // h1 태그에 "Hello, React~!~" 문구 뿌리는 UI 만들어보기~!
+                React.createElement("h1", null, "Hello, React~!~"),
+                document.getElementById("root")
+            );
+        </script>
     </body>
 </html>
