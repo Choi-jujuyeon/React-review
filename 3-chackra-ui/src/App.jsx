@@ -11,7 +11,11 @@ function App() {
       >
         {/* Box태그 == div 태그와 유사한 기능 */}
 
-        <Card test="test" />
+        <Card bgColor="yellow.100" name="A" />
+        <Card bgColor="yellow.200" name="B" />
+        <Card bgColor="yellow.300" name="C" />
+        <Card bgColor="yellow.400" name="D" />
+        <Card bgColor="yellow.500" name="E" />
       </Flex>
     </ChakraProvider>
   );
