@@ -1,9 +1,12 @@
-import { ChakraProvider, Box } from '@chakra-ui/react';
+import { Box, Button, Flex, ChakraProvider } from '@chakra-ui/react';
 
 function App() {
   return (
     <ChakraProvider>
-      <Box>Hello REACT~~!~</Box>
+      <Flex>
+        <Box>Hello REACT~~!~</Box>
+        <Button>버튼</Button>
+      </Flex>
     </ChakraProvider>
   );
 }
