@@ -13,7 +13,7 @@ const Todo = props => {
         {props.day}
       </Flex>
 
-      <Flex p={4}>
+      <Flex direction="column" p={4}>
         {props.todos.map((v, i) => {
           return <Box key={i}>{v}</Box>;
         })}
