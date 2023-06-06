@@ -5,6 +5,7 @@ function App() {
   //const [호출할 변수명, 업데이트할 변수명] = useState(초기값 넣어주기);
   const [name, setName] = useState('ABC');
 
+  //상태관리
   const onClickUpdate = () => {
     //setName(업데이트할 값을 넣어준다);
     setName('DEF');
