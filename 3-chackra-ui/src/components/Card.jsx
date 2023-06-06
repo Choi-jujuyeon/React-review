@@ -1,10 +1,12 @@
 import { Box } from '@chakra-ui/react';
 
-const A = () => {
+const Card = props => {
+  console.log(props);
+
   return (
     <Box w={200} h={200} bgColor="yellow.100">
-      BoxA
+      A Card
     </Box>
   );
 };
-export default A;
+export default Card;
