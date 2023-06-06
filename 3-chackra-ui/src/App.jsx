@@ -1,4 +1,9 @@
 import { Box, Button, Flex, ChakraProvider } from '@chakra-ui/react';
+import A from './components/A';
+import B from './components/B';
+import C from './components/C';
+import D from './components/D';
+import E from './components/E';
 
 function App() {
   return (
@@ -11,21 +16,11 @@ function App() {
       >
         {/* Box태그 == div 태그와 유사한 기능 */}
 
-        <Box w={200} h={200} bgColor="yellow.100">
-          Box1
-        </Box>
-        <Box w={200} h={200} bgColor="yellow.200">
-          Box2
-        </Box>
-        <Box w={200} h={200} bgColor="yellow.300">
-          Box3
-        </Box>
-        <Box w={200} h={200} bgColor="yellow.400">
-          Box4
-        </Box>
-        <Box w={200} h={200} bgColor="yellow.500">
-          Box5
-        </Box>
+        <A />
+        <B />
+        <C />
+        <D />
+        <E />
       </Flex>
     </ChakraProvider>
   );
