@@ -5,11 +5,21 @@ const Calculator = () => {
   const [num2, setNum2] = useState('');
   const [result, setResult] = useState();
 
+  //콘솔창 -> target -> value 값 확인 가능
+  const onChangeNum1 = e => {
+    // console.log(e);
+    setNum1(e.target.value);
+  };
+
+  const onChangeNum2 = e => {
+    setNum1(e.target.value);
+  };
+
   return (
     <Box>
       <Flex>
-        <Input />
-        <Input ml={2} />
+        <Input value={num1} onChange={onChangeNum1} />
+        <Input value={num2} onChange={onChangeNum2} ml={2} />
         {result && <Box ml={4}>{result}</Box>}
       </Flex>
       <Box mt={4}>
