@@ -1,0 +1,9 @@
+[
+  { "day": "MON", "bgColor": "blue.100", "todos": ["대체 휴일"] },
+  { "day": "TUE", "bgColor": "blue.200", "todos": ["현충일"] },
+  { "day": "WED", "bgColor": "blue.300", "todos": ["공부"] },
+  { "day": "THU", "bgColor": "blue.400", "todos": ["공부"] },
+  { "day": "FRI", "bgColor": "blue.500", "todos": ["프로젝트 피드백"] },
+  { "day": "SAT", "bgColor": "blue.600", "todos": ["알바", "친구"] },
+  { "day": "SUN", "bgColor": "blue.700", "todos": ["알바"] }
+]
