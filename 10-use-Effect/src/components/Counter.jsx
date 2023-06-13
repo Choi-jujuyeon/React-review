@@ -10,7 +10,11 @@ const Counter = () => {
 
   useEffect(() => {
     console.log('useEffect 실행');
-  });
+
+    return () => {
+      console.log('컴포넌트 제거');
+    };
+  }, []);
   return (
     <Box>
       {count}
