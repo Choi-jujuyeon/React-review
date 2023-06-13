@@ -1,5 +1,6 @@
 import { ChakraProvider, Flex } from '@chakra-ui/react';
 import { useState } from 'react';
+import ToDoList from './components/ToDoList';
 
 function App() {
   const [toDoArray, setToDoArray] = useState([
@@ -15,7 +16,7 @@ function App() {
         justifyContent="center"
         alignItems="center"
       >
-        Hello Chakra~!~
+        <ToDoList toDoArray={toDoArray} setToDoArray={setToDoArray} />
       </Flex>
     </ChakraProvider>
   );
