@@ -1,5 +1,5 @@
 import { Box, Button } from '@chakra-ui/react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -8,6 +8,9 @@ const Counter = () => {
     setCount(count + 1);
   };
 
+  useEffect(() => {
+    console.log('useEffect 실행');
+  });
   return (
     <Box>
       {count}
